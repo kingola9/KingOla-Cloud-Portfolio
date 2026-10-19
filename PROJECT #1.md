@@ -5,8 +5,15 @@
 This project demonstrates hands-on experience deploying, configuring, and troubleshooting Linux virtual machines on Microsoft Azure.
 It reflects real-world IT Support / Cloud Support responsibilities such as VM provisioning, authentication configuration, deployment issue resolution, and cost optimization using Azure CLI.
 
-🧑‍💻 **Role:** 
-_IT Support/Cloud Support_
+---
+
+#### 🌍 Real-World Scenario
+
+A support engineer may need to provision a Linux server, provide secure remote access, troubleshoot deployment or authentication issues, and manage the VM lifecycle while controlling cloud costs.
+
+This project simulates that workflow by deploying an Ubuntu Linux VM in Azure, validating access, troubleshooting configuration and authentication issues, and managing the VM through its runtime lifecycle.
+
+#### 🧑‍💻 Career Focus: IT Support / Cloud Support
 
 #### ☁️  Environment & Tools: 
 
@@ -19,6 +26,16 @@ _IT Support/Cloud Support_
 💡**Command Line: Azure CLI**
 
 💡**Authentication: SSH Keys, Username & Password**
+
+---
+
+#### 🎯 Key Objectives
+
+- Deploy an Ubuntu 22.04 LTS virtual machine in Azure
+- Configure and validate secure remote access
+- Troubleshoot VM deployment and authentication issues
+- Use Azure CLI to monitor and manage VM lifecycle states
+- Apply cost-conscious cloud resource management practices
 
 ## 🔧 Hands-on Tasks Performed (What I Did)
 
@@ -53,14 +70,35 @@ Resolved common Azure VM deployment and access issues, including:
 
 * Verified Azure resource provider settings and template dependencies.
 
-4️⃣ **VM Monitoring & Management (Azure CLI)**
-Checked VM runtime states:
-* Running
-* Stopped
-* Deallocated
-* Started and stopped virtual machines using Azure CLI commands to:
-* Optimize cloud costs
-* Control availability during testing
+#### 🔎 Troubleshooting Approach
+
+For each issue, I followed a structured troubleshooting process:
+
+**Identify → Investigate → Correct → Validate**
+
+- Identified the deployment or authentication failure
+- Reviewed the relevant VM configuration, OS profile, disk references, or authentication settings
+- Corrected the configuration or deployment issue
+- Retested the VM to confirm successful deployment or access
+
+  
+4️⃣ **VM Monitoring & Lifecycle Management**
+
+Used Azure CLI to monitor and manage VM runtime states:
+
+- Running
+- Stopped
+- Deallocated
+
+I started and stopped the VM during testing and deallocated it when it was no longer required.
+
+👉 **Why this matters:**
+
+Managing VM lifecycle states helps control unnecessary compute costs while maintaining the ability to restart resources when required.
+
+#### 📸 Project Evidence
+
+The screenshots below provide evidence of the VM deployment, configuration, remote access, resource management, monitoring, and cost-conscious lifecycle management performed during the project.
 
 
 ![531667842-9da55384-6751-45ec-b0ad-4c1483e46979~2](https://github.com/user-attachments/assets/6514c76c-a8f2-4df0-831e-c9e57af46bb2)
@@ -91,17 +129,43 @@ Checked VM runtime states:
 *Activity Log*
 
 ![531669519-fd8c926f-cb27-4124-a404-f8e67b67d934~2](https://github.com/user-attachments/assets/58035c18-df95-41ad-9c3f-8cec90d21158)
-*Successfully monitored the VM and managed cost from heavy running OS disk while optimizing cloud cost*
+*Monitored VM runtime activity and deallocated the VM when it was no longer required to reduce unnecessary compute costs*
 
+---
 
+### 🧠 Key Takeaways
+
+- Azure VM deployment requires careful configuration of compute, networking, storage, and authentication settings.
+- Troubleshooting is more effective when problems are isolated and validated systematically.
+- Azure CLI provides practical control over VM lifecycle operations.
+- VM deallocation is an important cost-management practice when compute resources are no longer required.
+- Infrastructure as Code with ARM templates improves repeatability and consistency.
+
+---
+
+### 🎯 Career Relevance: IT Support & Cloud Support
+
+This project demonstrates practical experience supporting Azure Linux virtual machines, troubleshooting deployment and authentication issues, using Azure CLI, and managing VM lifecycle and cloud costs.
+
+---
 
 🛠 **Skills Demonstrated:**
-* Microsoft Azure Virtual Machines
-* Linux Administration (Ubuntu)
-* Azure CLI Operations
-* ARM Template Troubleshooting
-* Cloud Infrastructure Support
-* IT Support & Problem Solving
 
-####  🎥Video Demonstration of how i successfully deployed a Linux VM🔗:
+- Microsoft Azure Virtual Machines
+- Linux Administration (Ubuntu)
+- Azure CLI Operations
+- SSH & Remote Access
+- ARM Template Troubleshooting
+- Cloud Infrastructure Support
+- Technical Troubleshooting
+- VM Lifecycle Management
+- Cloud Cost Awareness
+- IT Support & Problem Solving
+
+---
+
 #### [ARM Template (JSON file)](https://github.com/kingola9/Azure-IT-Support-Portfolio/tree/8458c122e39d46c25c0636af285d20868e30bae5/PROJECT%20%231%20ARM%20Template)
+
+#### ⭐ Final Recruiter Note
+
+This project demonstrates my ability to deploy, access, troubleshoot, and manage Azure Linux virtual machines while applying structured problem-solving and cost-conscious cloud operations.
