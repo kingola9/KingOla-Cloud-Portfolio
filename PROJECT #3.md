@@ -31,7 +31,7 @@ $web
 
 **When enabled:**
 
-* Azure automatically generates a public HTTP endpoint
+* Azure provides a public endpoint for accessing the static website.
 * Files in $web are served as web content
 * No backend server (e.g., Apache, Nginx) is required
 
@@ -210,7 +210,7 @@ _**Verified the 404 Error page webite was publicly accessible**_
 
 **👉 This demonstrates:**
 
-* Real-world **continuous deployment behavior** for static sites
+* a simple static-content update workflow where changes can be published without restarting or managing a web server.
 
 
 <img width="auto" height="auto" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/21bddce3-07a9-45f1-97d2-49f6b941fb41" />
@@ -278,6 +278,11 @@ az storage blob service-properties update \
 * Shows ability to automate deployments
 * Aligns with real-world DevOps and cloud admin workflows
 
+  ---
+## Troubleshooting & Validation
+During deployment, I validated the storage configuration, $web container contents, primary endpoint, website response, and custom 404 page. I also verified that updated HTML content was successfully reflected after re-uploading the file.
+
+---
   
 ## ✅ Project Outcome
 
@@ -306,6 +311,11 @@ This project simulates real IT/Cloud responsibilities:
 * Managing public access to cloud resources
 * Troubleshooting deployment and access issues
 
+---
+
+## 🎯 Career Relevance: IT Support & Cloud Support
+This project demonstrates practical experience configuring Azure storage, deploying web content, validating public access, using Azure CLI, and managing cloud resources with cost awareness.
+
 ## 🔗 Useful Resources
 
 * [Azure Blob Storage Documentation](https://learn.microsoft.com/en-us/azure/storage/blobs/?utm_source=chatgpt.com)
@@ -317,10 +327,11 @@ This project simulates real IT/Cloud responsibilities:
 
 **Abeeb Olabode**
 
-Aspiring IT Support / Cloud Engineer
+IT Support / Cloud Support Professional 
 
 ---
 
-## ⭐ Final Note
+## ⭐ Final Recruiter Note
 
-This project demonstrates practical cloud skills aligned with real-world IT and cloud support roles, showcasing the ability to deploy scalable, cost-effective solutions using **Microsoft Azure**.
+This project demonstrates my ability to configure Azure Blob Storage, deploy and validate a static website, use Azure CLI, and manage cloud resources with cost awareness—practical skills relevant to IT Support and Cloud Support roles.
+
