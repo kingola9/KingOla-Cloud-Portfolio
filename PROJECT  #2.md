@@ -81,7 +81,8 @@ _Azure resource flow showing VM ➡️ Image ➡️ Vnet_
 ### 🛠 Environment & Tools
 
 * Cloud Platform: Microsoft Azure
-* VM OS: Ubuntu Linux / Windows Server
+* VM OS: Ubuntu 22.04 LTS
+* Platform awareness: Linux VM generalization; Windows Server image workflows considered separately.
 * Image Type: Managed Image
 * Tools: Azure Portal, Azure CLI, SSH
 * Infrastructure Format: ARM Template
@@ -202,7 +203,7 @@ This error simply it indicates that your VM has been generalized just as below:
 _The error message above simply indicates that our VM has been generalized for capturing_
 
 **💡 Real Insight:**
-The “permission denied” error after exit confirms successful generalization.
+"After deprovisioning, the VM no longer accepted the previous user credentials, which was consistent with the generalization process. I used the VM state and subsequent capture workflow as additional evidence that the deprovisioning step had completed."
 
 ---
 
@@ -217,7 +218,7 @@ The “permission denied” error after exit confirms successful generalization.
 
 * Releases compute resources
 * Ensures disk is in a stable, consistent state
-* Required by Azure for successful image capture
+* The VM must be stopped/deallocated before capturing the managed image so the disk is in a suitable state for capture.
 
 **💥 What breaks if skipped:**
 
@@ -398,7 +399,7 @@ This solution enables:
 
 ---
 
-### 💼 IT Support & Cloud Relevance
+### 💼 Career Relevance: IT Support & Cloud Support 
 **🧑‍💻 IT Support Perspective**
 * Enables rapid system recovery
 * Reduces recurring configuration issues
@@ -463,8 +464,13 @@ This solution enables:
 ### 📬 Author
 
 #### Abeeb Olabode 
-Aspiring Cloud / IT Support Professional
+IT Support / Cloud Support Professional
 
+
+---
+
+### Final Recruiter Note
+This project demonstrates my ability to standardize Azure VM deployments using custom images and ARM templates. It strengthened my practical skills in VM lifecycle management, Linux administration, Infrastructure as Code, troubleshooting, and repeatable cloud deployments—key capabilities for IT Support and Cloud Support roles.
 
 ---
 
