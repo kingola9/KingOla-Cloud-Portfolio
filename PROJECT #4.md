@@ -55,7 +55,7 @@ Tags are key-value pairs attached to resources and managed via Azure Resource Ma
 ### Azure Resource Locks
 Locks are enforced at the Azure control plane level, meaning:
 - They prevent actions before they reach the resource  
-- Even users with high permissions are restricted  
+- Resource locks can prevent specific management operations even when a user has sufficient RBAC permissions.
 
 **Types of Locks:**
 - CanNotDelete → Blocks deletion  
@@ -110,8 +110,8 @@ _**Created a resource group and a storage account inside it**_
   - ReadOnly lock  
 
 **Technical Insight:**
-- Locks override RBAC permissions at the control plane level  
-- Prevent accidental or unauthorized changes
+- Resource locks are enforced at the Azure control plane and can prevent specific management operations even when a user otherwise has sufficient RBAC permissions.
+- Prevent accidental changes and provide an additional safeguard against unintended resource operations.
 
 
 <img width="auto" height="auto" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/af7874d2-84e8-42ab-b3cc-49fa86d97ff2" />
@@ -184,14 +184,13 @@ _**Attempted to delete the lock for Storage account**_
 
 <img width="auto" height="auto" alt="Screenshot (354)" src="https://github.com/user-attachments/assets/dadbaf82-928a-4ac8-a848-6922e3680f13" />
 
-_**Attempted to delete the lock for the resource group**_
+**_Before deleting the resources, I removed the applicable resource locks_**
 
 ---
 
 <img width="auto" height="auto" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/dff357b5-b19b-428c-9b66-0c478443479c" />
 
-_**Attempted to delete the resource group to prevent Azure ongoing charges**_
-
+_**I then deleted the resource group to prevent unnecessary ongoing Azure charges**_
 
 ---
 
@@ -253,6 +252,13 @@ az lock delete \
 * Azure enforces governance at the control plane level
 * Proper cleanup is essential for cost and resource optimization
 
+---
+
+## 🎯 Career Relevance: IT Support & Cloud Support
+This project demonstrates practical experience with Azure governance, resource organization, access safeguards, operational validation, and safe resource lifecycle management—skills relevant to IT Support and Cloud Support environments.
+
+---
+
 ## 🔐 Real-World Relevance
 
 This project reflects responsibilities of:
@@ -272,8 +278,8 @@ Including:
 
 **Abeeb Olabode**
 
-Aspiring IT Support / Cloud Engineer
+IT Support / Cloud Support Professional 
 
-## ⭐ Final Note
+## ⭐ Final Recruiter Note
 
-This project demonstrates hands-on experience with Azure governance, resource protection, and operational control using Microsoft Azure, showcasing practical skills required for real-world IT and cloud support roles.
+This project demonstrates my ability to organize and protect Azure resources using tags and resource locks, validate governance controls through hands-on testing, and manage the resource lifecycle safely.
