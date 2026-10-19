@@ -359,7 +359,7 @@ _**Reviewed Invocation Logs**_
 **Key Insight:**
 
 * Successful calls logged
-* Unauthorized requests not logged
+* Reviewed invocation and execution logs to validate function activity and response behavior.
 
 **Why this matters:**
 * Shows ability to monitor and troubleshoot live systems.
@@ -406,7 +406,7 @@ _**Deleted the Log Analytics workspace**_
 ### 🔐 Security
 
 * Avoided using anonymous access in production scenarios
-* Learned to implement function-level or managed identity authentication
+* Implemented function-level authentication and identified managed identity as a stronger option for production scenarios where appropriate.
 
 **Impact:** Prevents unauthorized access to APIs
 
@@ -440,7 +440,7 @@ _**Deleted the Log Analytics workspace**_
 
 ### 🧱 Scalable Design
 
-* Leveraged serverless architecture
+* Leveraged Azure Functions' managed serverless architecture, reducing infrastructure management and allowing Azure to handle scaling according to workload.
 
 **Impact**: Automatically handles traffic spikes without manual scaling
 
@@ -454,6 +454,11 @@ This project proves the ability to:
 * Build and expose live API endpoints
 * Use CLI tools in a cloud environment
 * Apply monitoring, security, and cost best practices
+
+---
+
+### 🎯 Career Relevance: IT Support & Cloud Support
+This project demonstrates practical experience deploying Azure Functions, using Cloud Shell and CLI tools, validating API availability, applying function-level authentication, reviewing execution logs, and managing cloud resources with cost awareness.
 
 ---
 
@@ -471,8 +476,10 @@ This project proves the ability to:
 
 **Abeeb Olabode**
 
-Aspiring Cloud / IT Support Professional
+ IT Support / Cloud Support Professional
 
 --- 
 
-⭐ If you found this project helpful, feel free to star the repository!
+### ⭐ Final Recruiter Note
+
+This project demonstrates my ability to deploy, secure, monitor, and troubleshoot a serverless Azure application using both Azure Portal and CLI tools—practical skills relevant to IT Support and Cloud Support environments.
