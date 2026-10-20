@@ -1,13 +1,13 @@
-#### *PROJECT 1*: *AZURE VIRTUAL MACHINE DEPLOYMENT & TROUBLESHOOTING*
+## *PROJECT 1*: *AZURE VIRTUAL MACHINE DEPLOYMENT & TROUBLESHOOTING*
 
-#### **Project Overview 📌**
+### **Project Overview 📌**
 
 This project demonstrates hands-on experience deploying, configuring, and troubleshooting Linux virtual machines on Microsoft Azure.
 It reflects real-world IT Support / Cloud Support responsibilities such as VM provisioning, authentication configuration, deployment issue resolution, and cost optimization using Azure CLI.
 
 ---
 
-#### 🌍 Real-World Scenario
+### 🌍 Real-World Scenario
 
 A support engineer may need to provision a Linux server, provide secure remote access, troubleshoot deployment or authentication issues, and manage the VM lifecycle while controlling cloud costs.
 
