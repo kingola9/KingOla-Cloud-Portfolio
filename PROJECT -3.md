@@ -200,7 +200,7 @@ _**Verified the 404 Error page webite was publicly accessible**_
 
 ### 5. Update Website Content
 
-* Edited the [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/index.html) file locally
+* Updated the [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/5ea7cda5282a27b00f55fc42fb509bae316f39ee/PROJECT%20-3%20folder/updated.html) file locally
 * Re-uploaded the updated version
 * Refreshed the browser to confirm live changes
 
