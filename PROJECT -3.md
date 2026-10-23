@@ -215,7 +215,7 @@ _**Verified the 404 Error page webite was publicly accessible**_
 
 <img width="auto" height="auto" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/21bddce3-07a9-45f1-97d2-49f6b941fb41" />
 
-_**Edited the  [`index.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/7337f952610664c4c1fa79908eb984986fca0f31/PROJECT%20%233%20folder/updated.html) file locally and re-uploaded the updated version to rewrite the previous version 1**_
+_**Updated the  [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/5ea7cda5282a27b00f55fc42fb509bae316f39ee/PROJECT%20-3%20folder/updated.html) file locally and re-uploaded the updated version to rewrite the previous version 1**_
 
 ---
 
