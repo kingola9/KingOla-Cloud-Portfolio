@@ -66,7 +66,7 @@ My technical portfolio demonstrates hands-on experience with **Azure Virtual Mac
 
 **Outcome:** Built practical experience in Azure VM deployment, Linux administration, connectivity troubleshooting, authentication, and structured problem investigation.
 
-📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/592710caf357cab06202ac2507c4903e483513a4/PROJECT%20%231.md)**
+📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/3f382c4b113dd2b6a6a49b7315250cc7c51db127/PROJECT%20-1.md)**
 
 ---
 
@@ -83,7 +83,7 @@ My technical portfolio demonstrates hands-on experience with **Azure Virtual Mac
 
 **Outcome:** Developed practical understanding of VM standardization, reusable infrastructure, image-based deployment, and Infrastructure as Code concepts.
 
-📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/592710caf357cab06202ac2507c4903e483513a4/PROJECT%20%20%232.md)**
+📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/3f382c4b113dd2b6a6a49b7315250cc7c51db127/PROJECT%20-2.md)**
 
 ---
 
@@ -102,7 +102,7 @@ My technical portfolio demonstrates hands-on experience with **Azure Virtual Mac
 
 **Outcome:** Gained hands-on experience with Azure Blob Storage, static website hosting, Azure CLI, cloud resource configuration, and cost-conscious resource management.
 
-📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/592710caf357cab06202ac2507c4903e483513a4/PROJECT%20%233.md)**
+📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/3f382c4b113dd2b6a6a49b7315250cc7c51db127/PROJECT%20-3.md)**
 
 ---
 
@@ -120,7 +120,7 @@ My technical portfolio demonstrates hands-on experience with **Azure Virtual Mac
 
 **Outcome:** Developed practical understanding of Azure resource governance, operational safeguards, configuration validation, and safe resource lifecycle management.
 
-📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/592710caf357cab06202ac2507c4903e483513a4/PROJECT%20%234.md)**
+📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/3f382c4b113dd2b6a6a49b7315250cc7c51db127/PROJECT%20-4.md)**
 
 ---
 
@@ -138,7 +138,7 @@ My technical portfolio demonstrates hands-on experience with **Azure Virtual Mac
 
 **Outcome:** Built practical experience with Azure Functions, serverless application deployment, HTTP endpoints, function-level authentication, monitoring, logging, and cloud resource management.
 
-📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/592710caf357cab06202ac2507c4903e483513a4/PROJECT%20%235.md)**
+📂 **[View Project Documentation](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/3f382c4b113dd2b6a6a49b7315250cc7c51db127/PROJECT%20-5.md)**
 
 ---
 
@@ -205,7 +205,7 @@ My long-term goal is to grow into a **Cloud Engineer**, building on strong found
 
 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/abeeb-olabode-916104393)
 
-**Portfolio:** [KingOla Cloud](REPLACE_WITH_YOUR_PORTFOLIO_URL)
+**Portfolio:** [KingOla Cloud](https://kingolacloud.netlify.app)
 
 **Email:** Abeeb.olabode10@gmail.com
 
