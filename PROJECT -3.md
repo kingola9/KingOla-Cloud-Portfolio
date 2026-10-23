@@ -104,13 +104,13 @@ _**Storage account overview**_
 * Enabled **Static Website** feature
 * Configured:
 
-  * Index document: [`index.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/45a4b0b04b369cd3206d153952c19a320ff20a05/PROJECT%20%233%20folder/index.html) → Default landing page
-  * Error document: [`404.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/c5721a4e3655fea00db9a9040285201c109b21b6/PROJECT%20%233%20folder/404.html) → custom error handling
+  * Index document: [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/index.html) → Default landing page
+  * Error document: [`404.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/404.html) → custom error handling
 
 **👉 What happens internally?**
 
 Azure maps incoming HTTP requests to files in `$web`
-If a file is missing → serves [`404.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/c5721a4e3655fea00db9a9040285201c109b21b6/PROJECT%20%233%20folder/404.html)
+If a file is missing → serves [`404.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/404.html)
 
 
 <img width="auto" height="auto" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/e71df010-9e34-413d-bd2e-fd728600201c" />
@@ -138,8 +138,8 @@ _**Generated the primary endpoint to access web**_
 * Navigated to the `$web` container
 * Uploaded:
 
-  * [`index.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/45a4b0b04b369cd3206d153952c19a320ff20a05/PROJECT%20%233%20folder/index.html)
-  * [`404.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/c5721a4e3655fea00db9a9040285201c109b21b6/PROJECT%20%233%20folder/404.html)
+  * [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/index.html)
+  * [`404.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/404.html)
 
 
 **👉 These files are now:**
@@ -200,7 +200,7 @@ _**Verified the 404 Error page webite was publicly accessible**_
 
 ### 5. Update Website Content
 
-* Edited the [`index.html`](https://github.com/kingola9/Azure-IT-Support-Portfolio/blob/7337f952610664c4c1fa79908eb984986fca0f31/PROJECT%20%233%20folder/updated.html) file locally
+* Edited the [`index.html`](https://github.com/kingola9/KingOla-Cloud-Portfolio/blob/1af6415227df6e0d0300f4233a8429d5abc123a4/PROJECT%20-3%20folder/index.html) file locally
 * Re-uploaded the updated version
 * Refreshed the browser to confirm live changes
 
