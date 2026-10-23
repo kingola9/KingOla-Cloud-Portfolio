@@ -164,7 +164,7 @@ This project demonstrates practical experience supporting Azure Linux virtual ma
 
 ---
 
-#### [ARM Template (JSON file)](https://github.com/kingola9/Azure-IT-Support-Portfolio/tree/8458c122e39d46c25c0636af285d20868e30bae5/PROJECT%20%231%20ARM%20Template)
+#### [ARM Template (JSON file)](https://github.com/kingola9/KingOla-Cloud-Portfolio/tree/9467bc9f9fcb4b869e3510d9fd44ace07babdc87/PROJECT%20-1%20ARM%20Template)
 
 #### ⭐ Final Recruiter Note
 
